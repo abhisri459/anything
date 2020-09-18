@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		body{
+			font-family: "Times New Roman";
+			background-color: bisque;
+		}
+		.Basic{
+			background-color:#BBFFFF;
+		}
+		.Academic{
+			background-color: #FFB6C1;
+		}
+		.Account{
+			background-color: #85C1E9;
+		}
+	</style>
+</head>
+<body >
+	<CENTER><h1>REGISTRATION FORM</h1></CENTER>
+	<form>
+		<div class="Basic">
+			<fieldset>
+				<LEGEND><b style="background-color: #7CFC00">BASIC DETAILS</b></LEGEND>
+				<table>
+					<tr>
+						<td><label>Form Number:</label></td><td><input type="text" name="Form Number"></td>
+					</tr>
+					<tr>
+						<td><label>Name:</label></td><td><input type="text" name="Name" placeholder="Abhiraj Yogesh Srivastava"></td>
+					</tr>
+					<tr>
+						<td><label>Roll Number:</label></td><td><input type="text" name="Roll Number" placeholder="1906137"></td>
+					</tr>
+					<tr>
+						<td><label>Gender:</label></td><td><label>Male</label><input type="radio" name="gender"><label>Female</label><input type="radio" name="gender"></td>
+					</tr>
+					<tr>
+						<td><label>Date Of Birth:</label></td><td><input type="date" name="DOB"></td>
+					</tr>
+					<tr>
+						<td><label>PWD Status:</label></td><td><label>Yes</label><input type="radio" name="PWD"><label>No</label><input type="radio" name="PWD"></td>
+					</tr>
+					<tr>
+						<td><label>Category:</label></td><td><select><option value="General">General</option><option value="EWS">General-EWS</option><option value="OBC">OBC</option><option value="SC">SC</option><option value="ST">ST</option></select></td>
+					</tr>
+					<tr>
+						<td><label>Address:</label></td><td></td>
+					</tr>
+					<tr>
+						<td colspan="2"><TEXTAREA ROWS="6" Cols="50"></TEXTAREA></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td colspan="2">PLEASE INPUT THE CORRECT PIN CODE</td>
+					</tr>
+					<tr>
+						<td><label>PIN Code:</label></td><td><input type="text" name="Pincode"></td>
+					</tr>
+					<tr>
+						<td><label>Phone number of Student:</label></td><td><input type="text" name="Phone"></td>
+					</tr>
+					<tr>
+						<td><label>Phone number of Guardian:</label></td><td><input type="text" name="Phone of guardian"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</div>
+		<br>
+		<div class="Academic">
+			<fieldset>
+				<legend>
+					<b style="background-color: #7CFC00">ACADEMIC DETAILS</b>
+				</legend>
+				<table>
+					<tr>
+						<td><label>Course:</label></td><td><select><option value="Btech">BTech</option><option value="Mtech">MTech</option><option value="Imsc">IMSc</option><option value="Phd">PhD</option></select></td>
+					</tr>
+					<tr>
+						<td><label>Branch:</label></td><td><select><option value="Cse">CSE</option><option value="Ce">CE</option><option value="Ece">ECE</option><option value="Me">ME</option><option value="Ee">EE</option><option value="Physics">IMSc Physics</option><option value="Chemistry">IMSc Chemistry</option><option value="Maths">IMSc Maths</option></select></td>
+					</tr>
+					<tr>
+						<td><label>Semester:</label></td><td><select><option value="1">1st</option><option value="3">3rd</option><option value="5">5th</option><option value="7">7th</option></select>  (For which allotment will be done)</td>
+					</tr>
+					<tr>
+						<td><label>All India Rank:</label></td><td><input type="text" name="AIR">  (2018 JEE Mains/GATE)</td>
+					</tr>
+					<tr>
+						<td><label>Category Rank:</label></td><td><input type="text" name="Cr">  (2018 JEE Mains/GATE)</td>
+					</tr>
+					<tr>
+						<td><label>CGPA:</label></td><td><input type="text" name="Cgpa"></td>
+					</tr>
+					<tr>
+						<td><label>Backlog:</label></td><td><label>Yes</label><input type="radio" name="backlog"><label>No</label><input type="radio" name="backlog"></td>
+					</tr>
+					<tr>
+						<td><label>Hostel Accomodation:</label></td><td><label>Yes</label><input type="radio" name="Hostel"><label>No</label><input type="radio" name="Hostel">(IF ANY)</td>
+					</tr>
+					<tr>
+						<td><label>Name Of Hostel:</label></td><td><input type="text" name="NH"> </td>
+					</tr>
+					<tr>
+						<td><label>Room Number:</label></td><td><input type="text" name="RN"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</div>
+		<br>
+		<div class="Account">
+			<fieldset>
+				<legend>
+					<b style="background-color : #7CFC00">ACCOUNT DETAILS FOR REFUND PROCESS</b>
+				</legend>
+				<table>
+					<tr>
+						<td><label>Account Holder Name:</label></td><td><input type="text" name="AHN"> (As per Bank Passbook)</td>
+					</tr>
+					<tr>
+						<td><label>Account Number:</label></td><td><input type="text" name="AN"></td>
+					</tr>
+					<tr>
+						<td><label>IFSC Code:</label></td><td><input type="text" name="IFSC"></td>
+					</tr>
+					<tr>
+						<td><label>Bank Name:</label></td><td><input type="text" name="BN"></td>
+					</tr>
+					<tr>
+						<td><label>Branch Name:</label></td><td><input type="text" name="BB"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</div>
+	</form>
+
+
+</body>
+</html>
